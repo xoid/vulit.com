@@ -77,3 +77,349 @@
 [Fri Dec 12 09:53:01 2014] [error] [client 208.80.194.123] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/index.pl line 4.
 [Fri Dec 12 09:53:01 2014] [error] [client 208.80.194.123] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/index.pl line 4.
 [Fri Dec 12 09:53:01 2014] [error] [client 208.80.194.123] Premature end of script headers: index.pl
+[Fri Dec 12 09:57:25 2014] [error] [client 176.74.12.34] script not found or unable to stat: /var/www/vulit.com/cgi-bin/index.pl
+[Fri Dec 12 09:57:50 2014] [warn] [client 176.74.12.34] incomplete redirection target of '/blog/' for URI '/' modified to 'http://vulit.com/blog/'
+[Fri Dec 12 09:57:50 2014] [error] [client 176.74.12.34] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Fri Dec 12 09:57:50 2014] [error] [client 176.74.12.34] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Fri Dec 12 09:57:50 2014] [error] [client 176.74.12.34] Premature end of script headers: list.pl
+[Fri Dec 12 12:26:07 2014] [error] [client 66.249.78.10] File does not exist: /var/www/vulit.com/html/robots.txt
+[Fri Dec 12 12:26:08 2014] [error] [client 66.249.78.254] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Fri Dec 12 12:26:08 2014] [error] [client 66.249.78.254] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Fri Dec 12 12:26:08 2014] [error] [client 66.249.78.254] Premature end of script headers: list.pl
+[Fri Dec 12 16:30:58 2014] [error] [client 200.98.202.24] File does not exist: /var/www/vulit.com/html/nyny
+[Fri Dec 12 16:30:58 2014] [error] [client 200.98.202.24] File does not exist: /var/www/vulit.com/html/phpMyAdmin
+[Fri Dec 12 16:30:59 2014] [error] [client 200.98.202.24] File does not exist: /var/www/vulit.com/html/pma
+[Fri Dec 12 16:31:00 2014] [error] [client 200.98.202.24] File does not exist: /var/www/vulit.com/html/myadmin
+[Fri Dec 12 18:42:37 2014] [error] [client 74.208.132.196] File does not exist: /var/www/vulit.com/html/aaaa
+[Fri Dec 12 18:42:37 2014] [error] [client 74.208.132.196] File does not exist: /var/www/vulit.com/html/phpMyAdmin
+[Fri Dec 12 18:42:37 2014] [error] [client 74.208.132.196] File does not exist: /var/www/vulit.com/html/pma
+[Fri Dec 12 18:42:38 2014] [error] [client 74.208.132.196] File does not exist: /var/www/vulit.com/html/myadmin
+[Fri Dec 12 19:54:06 2014] [error] [client 180.153.236.202] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Fri Dec 12 19:54:06 2014] [error] [client 180.153.236.202] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Fri Dec 12 19:54:06 2014] [error] [client 180.153.236.202] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Fri Dec 12 22:50:30 2014] [error] [client 61.160.247.7] File does not exist: /var/www/vulit.com/html/manager
+[Fri Dec 12 22:50:37 2014] [error] [client 61.160.247.7] File does not exist: /var/www/vulit.com/html/manager
+[Fri Dec 12 22:54:32 2014] [error] [client 61.160.247.7] File does not exist: /var/www/vulit.com/html/manager
+[Fri Dec 12 22:54:40 2014] [error] [client 61.160.247.7] File does not exist: /var/www/vulit.com/html/manager
+[Fri Dec 12 22:54:46 2014] [error] [client 61.160.247.7] File does not exist: /var/www/vulit.com/html/manager
+[Fri Dec 12 22:54:53 2014] [error] [client 61.160.247.7] File does not exist: /var/www/vulit.com/html/manager
+[Fri Dec 12 22:55:02 2014] [error] [client 61.160.247.7] File does not exist: /var/www/vulit.com/html/manager
+[Fri Dec 12 22:55:09 2014] [error] [client 61.160.247.7] File does not exist: /var/www/vulit.com/html/manager
+[Fri Dec 12 22:55:15 2014] [error] [client 61.160.247.7] File does not exist: /var/www/vulit.com/html/manager
+[Fri Dec 12 22:55:21 2014] [error] [client 61.160.247.7] File does not exist: /var/www/vulit.com/html/manager
+[Sat Dec 13 00:13:56 2014] [error] [client 66.249.64.38] File does not exist: /var/www/vulit.com/html/robots.txt
+[Sat Dec 13 00:13:57 2014] [error] [client 66.249.78.3] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sat Dec 13 00:13:57 2014] [error] [client 66.249.78.3] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sat Dec 13 00:13:57 2014] [error] [client 66.249.78.3] Premature end of script headers: list.pl
+[Sat Dec 13 00:15:38 2014] [error] [client 46.22.173.131] File does not exist: /var/www/vulit.com/html/wiki
+[Sat Dec 13 00:24:31 2014] [error] [client 66.249.78.254] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sat Dec 13 00:24:31 2014] [error] [client 66.249.78.254] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sat Dec 13 00:24:31 2014] [error] [client 66.249.78.254] Premature end of script headers: list.pl
+[Sat Dec 13 01:18:36 2014] [error] [client 125.64.35.67] File does not exist: /var/www/vulit.com/html/r
+[Sat Dec 13 03:54:43 2014] [error] [client 216.20.131.111] File does not exist: /var/www/vulit.com/html/user
+[Sat Dec 13 05:26:44 2014] [error] [client 41.218.92.179] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Sat Dec 13 06:01:35 2014] [error] [client 76.164.223.119] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sat Dec 13 06:01:35 2014] [error] [client 76.164.223.119] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sat Dec 13 06:01:35 2014] [error] [client 76.164.223.119] Premature end of script headers: list.pl
+[Sat Dec 13 07:07:40 2014] [error] [client 183.136.142.175] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://www.vulit.com/
+[Sat Dec 13 07:07:40 2014] [error] [client 183.136.142.175] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://www.vulit.com/
+[Sat Dec 13 07:07:40 2014] [error] [client 183.136.142.175] Premature end of script headers: list.pl, referer: http://www.vulit.com/
+[Sat Dec 13 07:51:11 2014] [error] [client 66.249.78.254] File does not exist: /var/www/vulit.com/html/robots.txt
+[Sat Dec 13 07:51:11 2014] [error] [client 66.249.78.3] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sat Dec 13 07:51:11 2014] [error] [client 66.249.78.3] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sat Dec 13 07:51:11 2014] [error] [client 66.249.78.3] Premature end of script headers: list.pl
+[Sat Dec 13 07:53:03 2014] [error] [client 113.185.7.127] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sat Dec 13 07:53:03 2014] [error] [client 113.185.7.127] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sat Dec 13 07:53:03 2014] [error] [client 113.185.7.127] Premature end of script headers: list.pl
+[Sat Dec 13 07:53:06 2014] [error] [client 113.185.7.127] File does not exist: /var/www/vulit.com/html/favicon.ico
+[Sat Dec 13 07:53:32 2014] [error] [client 180.153.236.197] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 07:53:32 2014] [error] [client 180.153.236.197] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 07:53:32 2014] [error] [client 180.153.236.197] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sat Dec 13 09:38:34 2014] [error] [client 208.80.192.33] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sat Dec 13 09:38:34 2014] [error] [client 208.80.192.33] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sat Dec 13 09:38:34 2014] [error] [client 208.80.192.33] Premature end of script headers: list.pl
+[Sat Dec 13 10:58:54 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin
+[Sat Dec 13 10:58:54 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin
+[Sat Dec 13 10:58:55 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/scripts/setup.php
+[Sat Dec 13 10:58:55 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 10:58:56 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/scripts/setup.php
+[Sat Dec 13 10:58:57 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 10:58:58 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 10:58:59 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 10:59:01 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 10:59:02 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 10:59:03 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 10:59:04 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 10:59:05 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 10:59:06 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 10:59:07 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 10:59:08 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 10:59:09 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 10:59:10 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 10:59:11 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 10:59:12 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 10:59:14 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 10:59:15 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 10:59:16 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 10:59:17 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 10:59:18 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 10:59:19 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 10:59:20 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 10:59:21 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 10:59:22 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 10:59:23 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 11:24:44 2014] [error] [client 66.249.78.3] File does not exist: /var/www/vulit.com/html/robots.txt
+[Sat Dec 13 11:24:44 2014] [error] [client 66.249.78.3] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sat Dec 13 11:24:44 2014] [error] [client 66.249.78.3] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sat Dec 13 11:24:44 2014] [error] [client 66.249.78.3] Premature end of script headers: list.pl
+[Sat Dec 13 13:03:32 2014] [error] [client 122.237.44.62] File does not exist: /var/www/vulit.com/html/index.action
+[Sat Dec 13 13:03:33 2014] [error] [client 122.237.44.62] File does not exist: /var/www/vulit.com/html/login.action
+[Sat Dec 13 13:03:34 2014] [error] [client 122.237.44.62] File does not exist: /var/www/vulit.com/html/unAuthorizedAccess.action
+[Sat Dec 13 13:23:47 2014] [error] [client 61.223.0.27] File does not exist: /var/www/vulit.com/html/xqxq
+[Sat Dec 13 13:23:48 2014] [error] [client 61.223.0.27] File does not exist: /var/www/vulit.com/html/phpMyAdmin
+[Sat Dec 13 13:23:49 2014] [error] [client 61.223.0.27] File does not exist: /var/www/vulit.com/html/pma
+[Sat Dec 13 13:23:50 2014] [error] [client 61.223.0.27] File does not exist: /var/www/vulit.com/html/myadmin
+[Sat Dec 13 15:29:21 2014] [error] [client 64.246.165.140] File does not exist: /var/www/vulit.com/html/robots.txt
+[Sat Dec 13 15:29:22 2014] [error] [client 64.246.165.140] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://whois.domaintools.com/vulit.com
+[Sat Dec 13 15:29:22 2014] [error] [client 64.246.165.140] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://whois.domaintools.com/vulit.com
+[Sat Dec 13 15:29:22 2014] [error] [client 64.246.165.140] Premature end of script headers: list.pl, referer: http://whois.domaintools.com/vulit.com
+[Sat Dec 13 16:43:36 2014] [error] [client 109.248.120.46] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sat Dec 13 16:43:36 2014] [error] [client 109.248.120.46] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sat Dec 13 16:43:36 2014] [error] [client 109.248.120.46] Premature end of script headers: list.pl
+[Sat Dec 13 16:43:37 2014] [error] [client 109.248.120.46] File does not exist: /var/www/vulit.com/html/HNAP1
+[Sat Dec 13 17:02:24 2014] [error] [client 176.102.38.36] File does not exist: /var/www/vulit.com/html/cgi-sys
+[Sat Dec 13 17:02:24 2014] [error] [client 176.102.38.36] attempt to invoke directory as script: /var/www/cgi-bin/
+[Sat Dec 13 17:09:15 2014] [error] [client 66.249.78.254] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sat Dec 13 17:09:15 2014] [error] [client 66.249.78.254] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sat Dec 13 17:09:15 2014] [error] [client 66.249.78.254] Premature end of script headers: list.pl
+[Sat Dec 13 17:56:24 2014] [error] [client 66.249.78.3] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sat Dec 13 17:56:24 2014] [error] [client 66.249.78.3] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sat Dec 13 17:56:24 2014] [error] [client 66.249.78.3] Premature end of script headers: list.pl
+[Sat Dec 13 18:40:32 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin
+[Sat Dec 13 18:40:32 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin
+[Sat Dec 13 18:40:32 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/scripts/setup.php
+[Sat Dec 13 18:40:33 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 18:40:33 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/scripts/setup.php
+[Sat Dec 13 18:40:35 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 18:40:36 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 18:40:38 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 18:40:39 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 18:40:40 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 18:40:42 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 18:40:43 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 18:40:45 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 18:40:46 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 18:40:47 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 18:40:48 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 18:40:49 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 18:40:50 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 18:40:52 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 18:40:53 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 18:40:54 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 18:40:55 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 18:40:56 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 18:40:57 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 18:40:58 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 18:41:00 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 18:41:01 2014] [error] [client 109.190.153.246] File does not exist: /var/www/vulit.com/html/myadmin, referer: http://62.109.25.53/myadmin/index.php
+[Sat Dec 13 19:48:06 2014] [error] [client 110.45.136.50] File does not exist: /var/www/vulit.com/html/w00tw00t.at.blackhats.romanian.anti-sec:)
+[Sat Dec 13 19:48:07 2014] [error] [client 110.45.136.50] File does not exist: /var/www/vulit.com/html/phpMyAdmin
+[Sat Dec 13 19:48:07 2014] [error] [client 110.45.136.50] File does not exist: /var/www/vulit.com/html/phpmyadmin
+[Sat Dec 13 19:48:08 2014] [error] [client 110.45.136.50] File does not exist: /var/www/vulit.com/html/pma
+[Sat Dec 13 19:48:09 2014] [error] [client 110.45.136.50] File does not exist: /var/www/vulit.com/html/myadmin
+[Sat Dec 13 19:48:09 2014] [error] [client 110.45.136.50] File does not exist: /var/www/vulit.com/html/MyAdmin
+[Sat Dec 13 20:07:16 2014] [error] [client 37.46.158.223] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Sat Dec 13 20:21:32 2014] [error] [client 66.249.78.10] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sat Dec 13 20:21:32 2014] [error] [client 66.249.78.10] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sat Dec 13 20:21:32 2014] [error] [client 66.249.78.10] Premature end of script headers: list.pl
+[Sat Dec 13 20:40:06 2014] [error] [client 180.153.236.128] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 20:40:06 2014] [error] [client 180.153.236.128] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 20:40:06 2014] [error] [client 180.153.236.128] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sat Dec 13 20:40:38 2014] [error] [client 180.153.236.192] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 20:40:38 2014] [error] [client 180.153.236.192] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 20:40:38 2014] [error] [client 180.153.236.192] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sat Dec 13 20:41:28 2014] [error] [client 180.153.236.59] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 20:41:28 2014] [error] [client 180.153.236.59] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 20:41:28 2014] [error] [client 180.153.236.59] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sat Dec 13 20:41:55 2014] [error] [client 180.153.236.183] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 20:41:55 2014] [error] [client 180.153.236.183] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 20:41:55 2014] [error] [client 180.153.236.183] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sat Dec 13 20:43:48 2014] [error] [client 180.153.236.163] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 20:43:48 2014] [error] [client 180.153.236.163] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 20:43:48 2014] [error] [client 180.153.236.163] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sat Dec 13 20:47:11 2014] [error] [client 180.153.236.117] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 20:47:11 2014] [error] [client 180.153.236.117] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 20:47:11 2014] [error] [client 180.153.236.117] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sat Dec 13 20:48:05 2014] [error] [client 180.153.236.144] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 20:48:05 2014] [error] [client 180.153.236.144] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 20:48:05 2014] [error] [client 180.153.236.144] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sat Dec 13 20:50:34 2014] [error] [client 180.153.236.103] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 20:50:34 2014] [error] [client 180.153.236.103] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 20:50:34 2014] [error] [client 180.153.236.103] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sat Dec 13 20:51:11 2014] [error] [client 180.153.236.61] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 20:51:11 2014] [error] [client 180.153.236.61] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 20:51:11 2014] [error] [client 180.153.236.61] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sat Dec 13 20:56:00 2014] [error] [client 180.153.236.160] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 20:56:00 2014] [error] [client 180.153.236.160] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 20:56:00 2014] [error] [client 180.153.236.160] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sat Dec 13 21:15:59 2014] [error] [client 180.153.236.170] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 21:15:59 2014] [error] [client 180.153.236.170] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 21:15:59 2014] [error] [client 180.153.236.170] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sat Dec 13 21:20:23 2014] [error] [client 180.153.236.170] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 21:20:23 2014] [error] [client 180.153.236.170] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 21:20:23 2014] [error] [client 180.153.236.170] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sat Dec 13 21:48:00 2014] [error] [client 180.153.236.44] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 21:48:00 2014] [error] [client 180.153.236.44] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 21:48:00 2014] [error] [client 180.153.236.44] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sat Dec 13 22:13:08 2014] [error] [client 66.249.78.10] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sat Dec 13 22:13:08 2014] [error] [client 66.249.78.10] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sat Dec 13 22:13:08 2014] [error] [client 66.249.78.10] Premature end of script headers: list.pl
+[Sat Dec 13 22:14:26 2014] [error] [client 180.153.236.52] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 22:14:26 2014] [error] [client 180.153.236.52] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 22:14:26 2014] [error] [client 180.153.236.52] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sat Dec 13 22:15:51 2014] [error] [client 157.55.39.191] File does not exist: /var/www/vulit.com/html/robots.txt
+[Sat Dec 13 22:15:55 2014] [error] [client 157.55.39.191] File does not exist: /var/www/vulit.com/html/myoracle_perl_oracle.html
+[Sat Dec 13 22:15:55 2014] [error] [client 157.55.39.191] File does not exist: /var/www/vulit.com/html/bash_shell_redirect_stderr.html
+[Sat Dec 13 22:15:55 2014] [error] [client 157.55.39.191] File does not exist: /var/www/vulit.com/html/oracledump.html
+[Sat Dec 13 22:15:59 2014] [error] [client 207.46.13.136] File does not exist: /var/www/vulit.com/html/windows_mobile.html
+[Sat Dec 13 22:16:04 2014] [error] [client 157.55.39.121] File does not exist: /var/www/vulit.com/html/shell_sum.html
+[Sat Dec 13 22:42:00 2014] [error] [client 180.153.236.165] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 22:42:00 2014] [error] [client 180.153.236.165] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sat Dec 13 22:42:00 2014] [error] [client 180.153.236.165] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sat Dec 13 23:09:48 2014] [error] [client 207.46.13.136] File does not exist: /var/www/vulit.com/html/windows_mobile.html
+[Sun Dec 14 00:40:15 2014] [error] [client 66.249.78.3] File does not exist: /var/www/vulit.com/html/robots.txt
+[Sun Dec 14 00:40:17 2014] [error] [client 66.249.69.103] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sun Dec 14 00:40:17 2014] [error] [client 66.249.69.103] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sun Dec 14 00:40:17 2014] [error] [client 66.249.69.103] Premature end of script headers: list.pl
+[Sun Dec 14 03:21:20 2014] [error] [client 217.70.23.181] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sun Dec 14 03:21:20 2014] [error] [client 217.70.23.181] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sun Dec 14 03:21:20 2014] [error] [client 217.70.23.181] Premature end of script headers: list.pl
+[Sun Dec 14 03:21:20 2014] [error] [client 217.70.23.181] File does not exist: /var/www/vulit.com/html/favicon.ico
+[Sun Dec 14 03:21:31 2014] [error] [client 217.70.23.181] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sun Dec 14 03:21:31 2014] [error] [client 217.70.23.181] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sun Dec 14 03:21:31 2014] [error] [client 217.70.23.181] Premature end of script headers: list.pl
+[Sun Dec 14 04:12:56 2014] [error] [client 54.246.252.210] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://www.vulit.com/
+[Sun Dec 14 04:12:56 2014] [error] [client 54.246.252.210] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://www.vulit.com/
+[Sun Dec 14 04:12:56 2014] [error] [client 54.246.252.210] Premature end of script headers: list.pl, referer: http://www.vulit.com/
+[Sun Dec 14 04:13:42 2014] [error] [client 54.246.252.210] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://www.vulit.com/
+[Sun Dec 14 04:13:42 2014] [error] [client 54.246.252.210] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://www.vulit.com/
+[Sun Dec 14 04:13:42 2014] [error] [client 54.246.252.210] Premature end of script headers: list.pl, referer: http://www.vulit.com/
+[Sun Dec 14 05:50:18 2014] [error] [client 23.123.5.92] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Sun Dec 14 06:11:52 2014] [error] [client 109.248.120.46] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sun Dec 14 06:11:52 2014] [error] [client 109.248.120.46] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sun Dec 14 06:11:52 2014] [error] [client 109.248.120.46] Premature end of script headers: list.pl
+[Sun Dec 14 06:11:52 2014] [error] [client 109.248.120.46] File does not exist: /var/www/vulit.com/html/HNAP1
+[Sun Dec 14 06:56:51 2014] [error] [client 157.55.39.191] File does not exist: /var/www/vulit.com/html/files
+[Sun Dec 14 07:10:48 2014] [error] [client 218.92.227.154] File does not exist: /var/www/vulit.com/html/141855904549416.html
+[Sun Dec 14 07:10:52 2014] [error] [client 218.92.227.151] File does not exist: /var/www/vulit.com/html/favicon.ico
+[Sun Dec 14 07:17:17 2014] [error] [client 218.92.227.153] File does not exist: /var/www/vulit.com/html/favicon.ico
+[Sun Dec 14 07:23:18 2014] [error] [client 218.92.227.156] File does not exist: /var/www/vulit.com/html/favicon.ico
+[Sun Dec 14 07:29:53 2014] [error] [client 218.92.227.156] File does not exist: /var/www/vulit.com/html/favicon.ico
+[Sun Dec 14 07:35:55 2014] [error] [client 218.92.227.151] File does not exist: /var/www/vulit.com/html/favicon.ico
+[Sun Dec 14 07:42:05 2014] [error] [client 218.92.227.155] File does not exist: /var/www/vulit.com/html/favicon.ico
+[Sun Dec 14 07:48:41 2014] [error] [client 218.92.227.153] File does not exist: /var/www/vulit.com/html/favicon.ico
+[Sun Dec 14 07:54:43 2014] [error] [client 218.92.227.154] File does not exist: /var/www/vulit.com/html/favicon.ico
+[Sun Dec 14 08:00:55 2014] [error] [client 218.92.227.156] File does not exist: /var/www/vulit.com/html/favicon.ico
+[Sun Dec 14 08:07:07 2014] [error] [client 218.92.227.150] File does not exist: /var/www/vulit.com/html/favicon.ico
+[Sun Dec 14 08:36:03 2014] [error] [client 180.153.236.192] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 08:36:03 2014] [error] [client 180.153.236.192] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 08:36:03 2014] [error] [client 180.153.236.192] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sun Dec 14 08:39:52 2014] [error] [client 180.153.236.132] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 08:39:52 2014] [error] [client 180.153.236.132] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 08:39:52 2014] [error] [client 180.153.236.132] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sun Dec 14 08:42:15 2014] [error] [client 180.153.236.64] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 08:42:15 2014] [error] [client 180.153.236.64] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 08:42:15 2014] [error] [client 180.153.236.64] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sun Dec 14 08:45:56 2014] [error] [client 180.153.236.147] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 08:45:56 2014] [error] [client 180.153.236.147] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 08:45:56 2014] [error] [client 180.153.236.147] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sun Dec 14 08:47:39 2014] [error] [client 180.153.236.117] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 08:47:39 2014] [error] [client 180.153.236.117] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 08:47:39 2014] [error] [client 180.153.236.117] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sun Dec 14 08:52:21 2014] [error] [client 180.153.236.64] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 08:52:21 2014] [error] [client 180.153.236.64] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 08:52:21 2014] [error] [client 180.153.236.64] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sun Dec 14 08:56:27 2014] [error] [client 180.153.236.103] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 08:56:27 2014] [error] [client 180.153.236.103] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 08:56:27 2014] [error] [client 180.153.236.103] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sun Dec 14 08:56:41 2014] [error] [client 180.153.236.161] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 08:56:41 2014] [error] [client 180.153.236.161] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 08:56:41 2014] [error] [client 180.153.236.161] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sun Dec 14 08:58:38 2014] [error] [client 180.153.236.159] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 08:58:38 2014] [error] [client 180.153.236.159] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 08:58:38 2014] [error] [client 180.153.236.159] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sun Dec 14 09:04:28 2014] [error] [client 182.254.220.59] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sun Dec 14 09:04:28 2014] [error] [client 182.254.220.59] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sun Dec 14 09:04:28 2014] [error] [client 182.254.220.59] Premature end of script headers: list.pl
+[Sun Dec 14 09:05:21 2014] [error] [client 180.153.236.185] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 09:05:21 2014] [error] [client 180.153.236.185] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 09:05:21 2014] [error] [client 180.153.236.185] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sun Dec 14 09:14:37 2014] [error] [client 180.153.236.167] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 09:14:37 2014] [error] [client 180.153.236.167] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 09:14:37 2014] [error] [client 180.153.236.167] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sun Dec 14 09:19:40 2014] [error] [client 180.153.236.171] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 09:19:40 2014] [error] [client 180.153.236.171] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 09:19:40 2014] [error] [client 180.153.236.171] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sun Dec 14 09:30:17 2014] [error] [client 208.80.194.126] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sun Dec 14 09:30:17 2014] [error] [client 208.80.194.126] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sun Dec 14 09:30:17 2014] [error] [client 208.80.194.126] Premature end of script headers: list.pl
+[Sun Dec 14 09:46:45 2014] [error] [client 180.153.236.46] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 09:46:45 2014] [error] [client 180.153.236.46] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 09:46:45 2014] [error] [client 180.153.236.46] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sun Dec 14 10:08:57 2014] [error] [client 180.153.236.58] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 10:08:57 2014] [error] [client 180.153.236.58] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 10:08:57 2014] [error] [client 180.153.236.58] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sun Dec 14 10:39:42 2014] [error] [client 180.153.236.171] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 10:39:42 2014] [error] [client 180.153.236.171] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 10:39:42 2014] [error] [client 180.153.236.171] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sun Dec 14 13:40:50 2014] [error] [client 176.31.60.93] File does not exist: /var/www/vulit.com/html/dvdv
+[Sun Dec 14 13:40:50 2014] [error] [client 176.31.60.93] File does not exist: /var/www/vulit.com/html/phpMyAdmin
+[Sun Dec 14 13:40:50 2014] [error] [client 176.31.60.93] File does not exist: /var/www/vulit.com/html/pma
+[Sun Dec 14 13:40:51 2014] [error] [client 176.31.60.93] File does not exist: /var/www/vulit.com/html/myadmin
+[Sun Dec 14 14:10:49 2014] [error] [client 14.139.125.117] File does not exist: /var/www/vulit.com/html/w00tw00t.at.blackhats.romanian.anti-sec:)
+[Sun Dec 14 14:10:49 2014] [error] [client 14.139.125.117] File does not exist: /var/www/vulit.com/html/phpMyAdmin
+[Sun Dec 14 14:10:50 2014] [error] [client 14.139.125.117] File does not exist: /var/www/vulit.com/html/phpmyadmin
+[Sun Dec 14 14:10:51 2014] [error] [client 14.139.125.117] File does not exist: /var/www/vulit.com/html/myadmin
+[Sun Dec 14 14:10:51 2014] [error] [client 14.139.125.117] File does not exist: /var/www/vulit.com/html/mysqladmin
+[Sun Dec 14 14:10:52 2014] [error] [client 14.139.125.117] File does not exist: /var/www/vulit.com/html/pma
+[Sun Dec 14 14:10:52 2014] [error] [client 14.139.125.117] File does not exist: /var/www/vulit.com/html/mysql
+[Sun Dec 14 14:10:53 2014] [error] [client 14.139.125.117] File does not exist: /var/www/vulit.com/html/phpadmin
+[Sun Dec 14 14:10:53 2014] [error] [client 14.139.125.117] File does not exist: /var/www/vulit.com/html/websql
+[Sun Dec 14 14:10:53 2014] [error] [client 14.139.125.117] File does not exist: /var/www/vulit.com/html/web
+[Sun Dec 14 14:10:54 2014] [error] [client 14.139.125.117] File does not exist: /var/www/vulit.com/html/MyAdmin
+[Sun Dec 14 14:10:54 2014] [error] [client 14.139.125.117] File does not exist: /var/www/vulit.com/html/phpadmin
+[Sun Dec 14 14:43:57 2014] [error] [client 109.248.120.46] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sun Dec 14 14:43:57 2014] [error] [client 109.248.120.46] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sun Dec 14 14:43:57 2014] [error] [client 109.248.120.46] Premature end of script headers: list.pl
+[Sun Dec 14 14:43:57 2014] [error] [client 109.248.120.46] File does not exist: /var/www/vulit.com/html/HNAP1
+[Sun Dec 14 18:07:26 2014] [error] [client 93.158.143.19] File does not exist: /var/www/vulit.com/html/robots.txt
+[Sun Dec 14 19:37:07 2014] [error] [client 61.185.123.110] File does not exist: /var/www/vulit.com/html/knkn
+[Sun Dec 14 19:37:07 2014] [error] [client 61.185.123.110] File does not exist: /var/www/vulit.com/html/phpMyAdmin
+[Sun Dec 14 19:37:08 2014] [error] [client 61.185.123.110] File does not exist: /var/www/vulit.com/html/pma
+[Sun Dec 14 19:37:09 2014] [error] [client 61.185.123.110] File does not exist: /var/www/vulit.com/html/myadmin
+[Sun Dec 14 19:51:12 2014] [error] [client 180.153.236.188] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 19:51:12 2014] [error] [client 180.153.236.188] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4., referer: http://vulit.com/
+[Sun Dec 14 19:51:12 2014] [error] [client 180.153.236.188] Premature end of script headers: list.pl, referer: http://vulit.com/
+[Sun Dec 14 20:30:01 2014] [error] [client 109.248.120.46] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sun Dec 14 20:30:01 2014] [error] [client 109.248.120.46] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sun Dec 14 20:30:01 2014] [error] [client 109.248.120.46] Premature end of script headers: list.pl
+[Sun Dec 14 20:30:01 2014] [error] [client 109.248.120.46] File does not exist: /var/www/vulit.com/html/HNAP1
+[Sun Dec 14 21:59:56 2014] [error] [client 93.158.143.19] File does not exist: /var/www/vulit.com/html/bash_shell_redirect_stderr.html
+[Sun Dec 14 22:57:54 2014] [error] [client 182.118.21.248] File does not exist: /var/www/vulit.com/html/robots.txt, referer: http://vulit.com/robots.txt
+[Sun Dec 14 23:31:03 2014] [error] [client 115.159.66.223] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sun Dec 14 23:31:03 2014] [error] [client 115.159.66.223] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Sun Dec 14 23:31:03 2014] [error] [client 115.159.66.223] Premature end of script headers: list.pl
+[Mon Dec 15 01:12:25 2014] [error] [client 58.134.30.5] File does not exist: /var/www/vulit.com/html/mwmw
+[Mon Dec 15 01:12:25 2014] [error] [client 58.134.30.5] File does not exist: /var/www/vulit.com/html/phpMyAdmin
+[Mon Dec 15 01:58:40 2014] [error] [client 125.64.35.67] File does not exist: /var/www/vulit.com/html/r
+[Mon Dec 15 02:27:22 2014] [error] [client 115.159.26.138] Can't locate CGI/Template.pm in @INC (@INC contains: /usr/local/lib/perl5 /usr/local/share/perl5 /usr/lib/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib/perl5 /usr/share/perl5 .) at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Mon Dec 15 02:27:22 2014] [error] [client 115.159.26.138] BEGIN failed--compilation aborted at /var/www/vulit.com/cgi-bin/list.pl line 4.
+[Mon Dec 15 02:27:22 2014] [error] [client 115.159.26.138] Premature end of script headers: list.pl
+[Mon Dec 15 02:31:10 2014] [error] [client 1.234.20.151] File does not exist: /var/www/vulit.com/html/w00tw00t.at.blackhats.romanian.anti-sec:)
+[Mon Dec 15 02:31:11 2014] [error] [client 1.234.20.151] File does not exist: /var/www/vulit.com/html/phpMyAdmin
+[Mon Dec 15 02:31:12 2014] [error] [client 1.234.20.151] File does not exist: /var/www/vulit.com/html/phpmyadmin
+[Mon Dec 15 02:31:12 2014] [error] [client 1.234.20.151] File does not exist: /var/www/vulit.com/html/pma
+[Mon Dec 15 02:31:13 2014] [error] [client 1.234.20.151] File does not exist: /var/www/vulit.com/html/myadmin
+[Mon Dec 15 02:31:14 2014] [error] [client 1.234.20.151] File does not exist: /var/www/vulit.com/html/MyAdmin
+[Mon Dec 15 03:02:41 2014] [error] [client 37.228.106.24] File does not exist: /var/www/vulit.com/html/favicon.ico
+[Mon Dec 15 03:06:27 2014] [error] [client 149.129.49.185] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
