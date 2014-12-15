@@ -430,3 +430,6 @@
 [Mon Dec 15 07:39:00 2014] [error] [client 176.74.12.34] Global symbol "$ref" requires explicit package name at /var/www/vulit.com/cgi-bin/list.pl line 33.
 [Mon Dec 15 07:39:00 2014] [error] [client 176.74.12.34] Execution of /var/www/vulit.com/cgi-bin/list.pl aborted due to compilation errors.
 [Mon Dec 15 07:39:00 2014] [error] [client 176.74.12.34] Premature end of script headers: list.pl
+[Mon Dec 15 08:12:24 2014] [error] [client 192.99.107.82] File does not exist: /var/www/vulit.com/html/robots.txt
+[Mon Dec 15 08:12:24 2014] [error] [client 192.99.107.82] DBI connect('database=vulit','vulit',...) failed: Access denied for user 'vulit'@'localhost' (using password: NO) at db.pm line 11
+[Mon Dec 15 08:12:24 2014] [error] [client 192.99.107.82] Cant db init at /var/www/vulit.com/cgi-bin/list.pl line 12.
