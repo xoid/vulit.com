@@ -423,3 +423,10 @@
 [Mon Dec 15 02:31:14 2014] [error] [client 1.234.20.151] File does not exist: /var/www/vulit.com/html/MyAdmin
 [Mon Dec 15 03:02:41 2014] [error] [client 37.228.106.24] File does not exist: /var/www/vulit.com/html/favicon.ico
 [Mon Dec 15 03:06:27 2014] [error] [client 149.129.49.185] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /tmUnblock.cgi
+[Mon Dec 15 05:00:51 2014] [error] [client 66.249.78.3] File does not exist: /var/www/vulit.com/html/robots.txt
+[Mon Dec 15 05:00:52 2014] [error] [client 66.249.78.254] Global symbol "$ref" requires explicit package name at /var/www/vulit.com/cgi-bin/list.pl line 33.
+[Mon Dec 15 05:00:52 2014] [error] [client 66.249.78.254] Execution of /var/www/vulit.com/cgi-bin/list.pl aborted due to compilation errors.
+[Mon Dec 15 05:00:52 2014] [error] [client 66.249.78.254] Premature end of script headers: list.pl
+[Mon Dec 15 07:39:00 2014] [error] [client 176.74.12.34] Global symbol "$ref" requires explicit package name at /var/www/vulit.com/cgi-bin/list.pl line 33.
+[Mon Dec 15 07:39:00 2014] [error] [client 176.74.12.34] Execution of /var/www/vulit.com/cgi-bin/list.pl aborted due to compilation errors.
+[Mon Dec 15 07:39:00 2014] [error] [client 176.74.12.34] Premature end of script headers: list.pl

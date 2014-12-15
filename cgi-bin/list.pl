@@ -3,10 +3,13 @@
 use CGI;
 use CGI::FastTemplate;
 use strict;
+use db;
+
 
 print "Content-type: text/html\n\n";
-
 print "Hello world\n";
+
+my $dbh = db::init() or die 'Cant db init';
 
 CGI::FastTemplate->set_root('tmpl/');
 my $tpl = new CGI::FastTemplate('list.tmpl');
@@ -30,6 +33,6 @@ $tpl->assign(\%defaults);
   $tpl->print();            ## defaults to last parsed
   $tpl->print("CONTENT");   ## same as print() as "CONTENT" was last parsed
 
-  $ref = $tpl->fetch("CONTENT");        
+ # $ref = $tpl->fetch("CONTENT");        
 
 
