@@ -1,12 +1,13 @@
 CREATE table IF NOT EXISTS post 
 (
 	id MEDIUMINT NOT NULL AUTO_INCREMENT,
+	parent_id MEDIUMINT,
 	date		TIMESTAMP,
 	title		VARCHAR(1024),
 	text		VARCHAR(6000),
 	PRIMARY KEY (id)
 );
-
+ALTER TABLE post ADD parent_id MEDIUMINT ;
 REPLACE INTO post VALUES (1, '2014-09-11', 'First post about sex', 'Sex is great');
 
 CREATE TABLE IF NOT EXISTS tag 

@@ -1,38 +1,21 @@
 #!/usr/bin/perl
 
 use CGI;
-use CGI::FastTemplate;
+use HTML::Template::Pro;
 use strict;
 use db;
 
+my $db = db->new() or die 'Cant db init';
 
+my $tmpl = HTML::Template::Pro->new(filename => 'tmpl/list.tmpl');
+
+my %param = (
+				TITLE 		=> 'мои суперпосты',
+				KEYWORDS	=> 'linux, perl',
+				DESCRIPTION => 'yet another IT hints diary',
+				POSTS 	=> db->posts()
+			);
+
+$tmpl->param(%param);
 print "Content-type: text/html\n\n";
-print "Hello world\n";
-
-my $dbh = db::init() or die 'Cant db init';
-
-CGI::FastTemplate->set_root('tmpl/');
-my $tpl = new CGI::FastTemplate('list.tmpl');
-
-$tpl->define( main    => "main.tpl",
-                row     => "table_row.tpl",
-                all     => "table_all.tpl",
-                );
-
-$tpl->assign(TITLE => "I am the title.");
-
-my %defaults = (    #FONT   => "<font size=+2 face=helvetica>",
-                    EMAIL   => 'jmoore@sober.com',
-                    );   
-$tpl->assign(\%defaults);
-
-  $tpl->parse(ROWS      => ".row");      ## the '.' appends to ROWS
-  $tpl->parse(CONTENT   => ["row", "all"]);
-  $tpl->parse(CONTENT   => "main");
-
-  $tpl->print();            ## defaults to last parsed
-  $tpl->print("CONTENT");   ## same as print() as "CONTENT" was last parsed
-
- # $ref = $tpl->fetch("CONTENT");        
-
-
+print $template->output();
