@@ -1,0 +1,24 @@
+{
+   "post1" : {
+        "title" : "mahesh name",
+	  "tag" : "android",
+	  "tag" : "teacher",
+	  "text": "С точки зрения банальной эрудиции, не каждый индивидуум"
+	  "id": 1
+   },
+   "post2" : {
+        "title" : "suresh name",
+	  "tag" : "javascript",
+	  "tag" : "librarian",
+	  "tag" : "pidoras",
+	  "text": "она размышляла о вечности, и ей отрубило конечности"
+	  "id": 2
+   },
+   "post3" : {
+    	"title" : "ramesh name",
+	  "tag" : "apache",
+	  "tag" : "clerk",
+	  "text": "trololo Дуза вышла из полена. Опердень  ",
+	  "id": 3
+   }
+}
